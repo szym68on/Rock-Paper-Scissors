@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Poppins:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <div class="container">
+        <nav>
+          <p class="welcome">Log in to get started</p>
+          <form class="login">
+            <input
+              type="text"
+              placeholder="Login"
+              class="login-input input-style"
+            />
+            <input
+              type="text"
+              placeholder="PIN"
+              maxlength="4"
+              class="pin-input input-style"
+            />
+            <button class="login-btn">&rarr;</button>
+          </form>
+        </nav>
+        <main>
+          <h1 class="title-game">
+            <span class="rock-font">Rock</span> •
+            <span class="paper-font">Paper</span> •
+            <span class="scissors-font">Scissors</span>
+          </h1>
+          <div class="score-panel">
+            <div class="player-score-div"><p class="player-score">0</p></div>
+            <span>:</span>
+            <div class="computer-score-div">
+              <p class="computer-score">0</p>
+            </div>
+          </div>
+          <div class="panel-menu">
+            <div class="player-panel">
+              <h2 class="name-player">Player</h2>
+              <div class="options-player">
+                <div class="option-player-thing" data-type="paper">
+                  <img src="images/paper.png" alt="Paper" />
+                </div>
+                <div class="option-player-thing" data-type="rock">
+                  <img src="images/rock.png" alt="Rock" />
+                </div>
+                <div class="option-player-thing" data-type="scissors">
+                  <img src="images/scissors.png" alt="Scissors" />
+                </div>
+              </div>
+            </div>
+            <div class="computer-panel">
+              <h2 class="name-computer">Computer</h2>
+              <div class="options-computer">
+                <div class="option-computer-thing" data-type="paper">
+                  <img src="images/paper.png" alt="Paper"
+                   />
+                </div>
+                <div class="option-computer-thing" data-type="rock">
+                  <img src="images/rock.png" alt="Rock"
+                   />
+                </div>
+                <div class="option-computer-thing" data-type="scissors">
+                  <img src="images/scissors.png" alt="Scissors"
+                   />
+                </div>
+              </div>
+            </div>
+            <div class="play-panel">
+              <img src="images/repeat.png" alt="Repeat" />
+              <p class="restart-btn">Restart game</p>
+            </div>
+          </div>
+          <div class="history-panel">
+            <!-- <div class="history-panel-wrapper">
+              <div class="history-panel-result-player">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-player"
+                />
+                <p class="history-name-player">Player</p>
+              </div>
+
+              <div class="history-panel-result-computer">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-computer"
+                />
+                <p class="history-name-computer">Computer</p>
+              </div>
+            </div>
+            <div class="history-panel-wrapper">
+              <div class="history-panel-result-player">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-player"
+                />
+                <p class="history-name-player">Player</p>
+              </div>
+
+              <div class="history-panel-result-computer">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-computer"
+                />
+                <p class="history-name-computer">Computer</p>
+              </div>
+            </div>
+            <div class="history-panel-wrapper">
+              <div class="history-panel-result-player">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-player"
+                />
+                <p class="history-name-player">Player</p>
+              </div>
+
+              <div class="history-panel-result-computer">
+                <img
+                  src="images/paper.png"
+                  alt="icon"
+                  class="icon-history-computer"
+                />
+                <p class="history-name-computer">Computer</p>
+              </div> -->
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+   
+  </body>
+</html>
